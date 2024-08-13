@@ -4,10 +4,37 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+	body html{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}	
+	.centered-box{
+		position:"absolate"
+		top:50%;
+		left:50%;
+		transform: translate(-50% -50%);
+		width:200px;
+		height:200px;
+		background-color:lightblue;
+		border: 2px solid black;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+	}
+		.box-text{
+			color:purple;
+			text-align:center;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="centered-box">
+		<span class="box-text">This is center</span>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
